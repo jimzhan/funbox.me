@@ -7,6 +7,7 @@ email: jim.zhan@me.com
 description: Jim - Let's geek~
 
 github_username:  jimzhan
+google_analytics: UA-73392068-1
 
 #navbar-links:
 #    About Me: "about"
@@ -94,5 +95,4 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
-  - Makefile
   - Rakefile

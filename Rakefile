@@ -5,6 +5,7 @@ require 'date'
 require 'yaml'
 require 'tmpdir'
 require 'jekyll'
+require 'shellwords'
 
 
 desc "Cleaning existing resources..."
@@ -29,9 +30,9 @@ end
 desc "Start pushing resources onto gh-pages..."
 task :push => [:build] do
   Dir.mktmpdir do |tmp|
-    message = "Autocommit by Rakefile at #{Time.now.utc}"
+    message = Shellwords.escape("Autocommit by Rakefile at #{Time.now.utc}")
     system "git add ."
-    system "git commit -am #{message.shellescape}"
+    system "git commit -am #{message}"
     system "git push origin gh-pages --verbose"
   end
 end
