@@ -1,8 +1,8 @@
 ---
-layout:     post
-title:      "Programming Your Vim for Programming"
-date:       2014-09-19 16:15:21 +0800
-categories: technote, vim
+layout: post
+title: Programming Your Vim for Programming
+date: 2014-09-19 16:15:21 +0800
+tags: [technote, vim]
 ---
 
 最近開始把之前 [Python](//www.python.org/) 的各種 snippets 和 libraries 轉到 [Golang](//golang.org/), 試了幾個 plugins, 都不滿意，然後頭腦發熱又一次去試 [Sublime Text](//www.sublimetext.com/)。
@@ -28,9 +28,9 @@ dotvim 所包含的 plugins
 
 * [scrooloose/nerdtree](//github.com/scrooloose/nerdtree): Vim 下最強樹形文件管理器，沒有之一，已經加了 [NERDTreeTabs](//github.com/jistr/vim-nerdtree-tabs) 來解決 NERDTree 單獨啟用時可能產生的視窗混亂問題，toggle 的快捷鍵默認設定如下。
 
-{% highlight shell %}
+```bash
 map <C-o>   <plug>NERDTreeTabsToggle<CR>
-{% endhighlight %}
+```
 
 * [kien/ctrlp](//github.com/kien/ctrlp.vim): 文件查找，Sublime Text control-p 的 copycat，簡單好用，查找路徑已設定為 NERDTree 當前打開結點.
 
@@ -39,7 +39,7 @@ map <C-o>   <plug>NERDTreeTabsToggle<CR>
 
 * [tpope/vim-fugitive](//github.com/tpope/vim-fugitive): GIT 管理，常用的快捷鍵設定如下。
 
-{% highlight vim linenos %}
+```vim
 nnoremap <silent> <leader>gs :Gstatus<CR>
 nnoremap <silent> <leader>gd :Gdiff<CR>
 nnoremap <silent> <leader>gc :Gcommit<CR>
@@ -48,7 +48,7 @@ nnoremap <silent> <leader>gl :Glog<CR>
 nnoremap <silent> <leader>gp :Git push<CR>
 nnoremap <silent> <leader>gw :Gwrite<CR>
 nnoremap <silent> <leader>gr :Gremove<CR>
-{% endhighlight %}
+```
 
 ### Autocomplete
 
@@ -76,11 +76,11 @@ nnoremap <silent> <leader>gr :Gremove<CR>
 
 * [bling/vim-airline](//github.com/bling/vim-airline): 狀態欄顯示，已啟用 Buffers List, 結合下面設定的快捷鍵, 不再需要單獨的插件(如 [MiniBufExpl](//github.com/fholgado/minibufexpl.vim)) 來管理 Buffers, 如此也避免了視窗跳轉時可能產生的問題。
 
-{% highlight vim linenos %}
+```vim
 :nmap <C-l>     :bnext<CR>
 :nmap <C-h>     :bprevious<CR>
 :nmap <C-k>     :bdelete<CR>
-{% endhighlight %}
+```
 
 ### Color Scheme
 
@@ -89,8 +89,8 @@ nnoremap <silent> <leader>gr :Gremove<CR>
 
 安裝 dotvim:
 
-{% highlight bash linenos %}
+```bash
 curl -s https://raw.githubusercontent.com/jimzhan/.vim/master/setup | sh
-{% endhighlight %}
+```
 
 [dotvim on Github](//github.com/jimzhan/.vim)

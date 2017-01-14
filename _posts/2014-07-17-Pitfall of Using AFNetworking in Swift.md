@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Pitfall of Using AFNetworking in Swift"
+title:  Pitfall of Using AFNetworking in Swift
 date:   2014-07-17 22:34:52 +0800
-categories:   Swift, Objective-C
+tags: [Swift, Objective-C]
 ---
 
 Having gone through a whole boring day for figuring out what the hell was wrong with my JSON response object retrieved by [AFNetworking](http://afnetworking.com/ "AFNetworking"). All of a sudden, I found that is a ridiculously diabolical mistake.
@@ -12,7 +12,7 @@ Having gone through a whole boring day for figuring out what the hell was wrong 
 
 This is what I use to call:
 
-{% highlight swift linenos %}
+```swift
 // AFHTTPSessionManager instance
 manager.GET("domains", parameters: nil,
         success: {(task: NSURLSessionDataTask!, response: AnyObject!) in
@@ -20,7 +20,7 @@ manager.GET("domains", parameters: nil,
         }, failure: {(task: NSURLSessionDataTask!, error: NSError!) in
             println("ERROR: " + error.localizedDescription)
 })
-{% endhighlight %}
+```
 
 I have to admit that I've done pretty stupid things like try parsing the *response.description* String into Dictionary using *NSJSONSerialization* blah blah blah, hmmm....as you could expect.
 

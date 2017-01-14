@@ -2,7 +2,7 @@
 layout: post
 title:    THIS IS BAD!
 date:     2014-07-21 12:47:54 +0800
-categories:     living, vehicle
+tags: [living]
 ---
 
 This is bad, this is really bad! I’m not gonna pay twenty bucks for lower res. on iTunes (T__T)

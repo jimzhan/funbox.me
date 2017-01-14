@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "Who told you that Swift is statically-typed language?"
+title:      Who told you that Swift is statically-typed language?
 date:       2014-07-22 23:29:10 +0800
-categories: technote, Swift
+tags: [technote, Swift]
 ---
 
 ![Apple Swift](/assets/apple_swift.jpg)
@@ -11,9 +11,9 @@ OK, I lied about it. Swift is indeed statically-typed. But if you have ever trie
 
 This is a pretty simple functional helper but it took me nearly an hour to finally figure it out what the heck was really going on:
 
-{% highlight swift linenos %}
+```swift
 json["features"].array?.map({ item in (item.string as String) })
-{% endhighlight %}
+```
 
 First you need to ensure *features* from *json* is optional/mandatory(!), then in *map* you’ll still need to explicitly downcast a strong-typed String to a String using *as*.
 

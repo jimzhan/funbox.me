@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Do You Write?"
+title:  Do You Write?
 date:   2014-07-18 18:25:00 +0800
-catgories:   technote, apps
+tags: [technote, apps]
 ---
 
 	Do you write?

@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Alfred blogging workflow for farbox.com"
+title:  Alfred blogging workflow for farbox.com
 date:   2014-07-08 13:15:56 +0800
-categories: technote
+tags: [technote]
 ---
 
 最近需要記錄一些 tech notes (其實一直都需要)，只是因為自己的幾點小要求，一直沒有找到順手的工具:

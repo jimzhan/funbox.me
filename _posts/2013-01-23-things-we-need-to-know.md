@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Things we need to know"
+title: Things we need to know
 date: 2013-01-11 17:15:36 +0800
-categories: technote
+tags: [technote]
 ---
 
 **Prerequisite**
@@ -18,14 +18,14 @@ categories: technote
 
 **Create Routes for TunnelBlick**
 
-{% highlight bash linenos %}
+```bash
 curl -o chnroutes.py
 python chnroutes.py -p mac
 chmod a+x ip-up ip-down
 mv ip-* ~/Library/Application\ Support/Tunnelblick/Configurations/
 echo ‘up ip-up’ >> ~/Library/Application\ Support/Tunnelblick/Configurations/<your-config>
 echo ‘down ip-down’ >> ~/Library/Application\ Support/Tunnelblick/Configurations/<your-config>
-{% endhighlight %}
+```
 
 
 **Unset nameserver from account settings**

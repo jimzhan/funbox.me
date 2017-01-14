@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "CocoaPods-based Swift project template for Xcode"
+title:  CocoaPods-based Swift project template for Xcode
 date:   2014-07-08 14:55:09 +0800
-categories: technote
+tags: [technote]
 ---
 
 事情是這樣的, Apple 良心發現發佈了自已的 [Swift](//developer.apple.com/swift/ "Swift"), 而我需要在 [Swift](//developer.apple.com/swift/ "Swift") 中使用 [CocoaPods](//cocoapods.org/) (確切來說應該是在 [Swift](//developer.apple.com/swift/ "Swift") 中使用 Objective-C 和 C), 而據我所知目前只有兩種方法:
