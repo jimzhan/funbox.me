@@ -71,7 +71,9 @@ bigimg:
       <a href="{{ site.baseurl }}/tag/{{ tag }}">{{ tag }}</a>
       {% endfor %}
       {% else %}
-        {{ post.tags | join: ", " }}
+        {% for tag in post.tags %}
+          <span class="tag">{{ tag }}</span>
+        {% endfor %}
       {% endif %}
     </div>
     {% endif %}
