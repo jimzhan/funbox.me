@@ -7,7 +7,7 @@ body {
   font-size: 16px;
   color: #404040;
   position: relative;
-  background: #FFF;
+  background: #fefefe;
 }
 p {
   line-height: 1.5;
@@ -728,5 +728,3 @@ td.gutter {
     display: none;
   }
 }
-
-/* --- custom icons --- */
