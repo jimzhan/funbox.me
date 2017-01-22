@@ -296,8 +296,12 @@ footer .theme-by {
   }
 }
 
-/* --- Post preview --- */
-
+/* --- Post Settings --- */
+.post-title {
+  margin: 40px 10px 20px 0;
+  padding-left: 13px;
+  border-left: 6px solid #ff7e79;
+}
 .post-preview {
   padding: 20px 0;
   border-bottom: 1px solid #eee;
