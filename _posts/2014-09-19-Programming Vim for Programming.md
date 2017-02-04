@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Programming Your Vim for Programming
-date: 2014-09-19 16:15:21 +0800
+date: 2014-09-19 16:15:21
 tags: [technote, vim]
 ---
 
