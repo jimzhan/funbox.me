@@ -3,7 +3,7 @@
 /* --- General --- */
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Roboto', 'Lora', 'Times New Roman', serif;
   font-size: 16px;
   color: #404040;
   position: relative;
@@ -384,7 +384,7 @@ footer .theme-by {
 .blog-tags {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #999;
-  font-size: 15px;
+  font-size: 13px;
   margin-bottom: 30px;
 }
 

@@ -25,12 +25,12 @@ Yeah, he is a Bear, with almost full Markdown supports (e.g. Table supports will
 
 Yep, comparison is what you need here:
 
-| Features | Evernote | Bear |
-|----------|:---------:|------|
-|code		  | N/A		    | Yes    |
-|markup| semi-disabled HTML | markdown |
-|structure| complex | simple |
-|web clip| YES/Slow| YES |
+| Aspects   | Evernote  | Bear |
+|-----------|:---------:|------|
+|code       | N/A       | Yes  |
+|markup     | semi-disabled HTML | markdown |
+|structure  | complex   | simple |
+|web clip   | YES/Slow  | YES   |
 |price/year | $69.99 | $14.99 |
 
 So, as a premium member, Bye Elephant, farewell [Ulysses](/2014/07/18/Do-You-Write/)~
